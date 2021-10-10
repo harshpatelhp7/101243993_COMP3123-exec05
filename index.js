@@ -13,7 +13,7 @@ let user = require('./user.json')
 - Return home.html page to client
 */
 router.get('/home', (req, res) => {
-  res.sendFile(path.join('C:/Users/harsh/downloads/week05_lab_execrcise05', './home.html'));
+  res.sendFile(path.join('C:/Users/harsh/sem5/Full Stack/Full stack develop/Lab/lab5_HW', './home.html'));
 });
 
 /*
